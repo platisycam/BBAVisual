@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBAVisual.Plugins", "BBAVisual.Plugins.csproj", "{198F6750-2E8B-7629-590E-763D0AD36B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBAVisual", "BBAVisual.csproj", "{F147641A-0E44-DF79-28C9-3E0C088F2604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{198F6750-2E8B-7629-590E-763D0AD36B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198F6750-2E8B-7629-590E-763D0AD36B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198F6750-2E8B-7629-590E-763D0AD36B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198F6750-2E8B-7629-590E-763D0AD36B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F147641A-0E44-DF79-28C9-3E0C088F2604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F147641A-0E44-DF79-28C9-3E0C088F2604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F147641A-0E44-DF79-28C9-3E0C088F2604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F147641A-0E44-DF79-28C9-3E0C088F2604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

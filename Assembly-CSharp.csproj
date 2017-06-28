@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{092F3F61-5FDD-64E2-DD43-D3CA41AE8DDB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Script\ComunicationAction.cs" />
+     <Compile Include="Assets\Script\CreateSprite.cs" />
+     <Compile Include="Assets\Script\DeviceButtonName.cs" />
+     <Compile Include="Assets\Script\DeviceMouseEvent.cs" />
+     <Compile Include="Assets\Script\DeviceSceneInit.cs" />
+     <Compile Include="Assets\Script\LayoutPort.cs" />
+     <Compile Include="Assets\Script\LinkSceneInit.cs" />
+     <Compile Include="Assets\Script\LoadCabinet.cs" />
+     <Compile Include="Assets\Script\LoadCard.cs" />
+     <Compile Include="Assets\Script\LoadDevice.cs" />
+     <Compile Include="Assets\Script\PortLinkLine.cs" />
+     <Compile Include="Assets\Script\PortSceneInit.cs" />
+     <Compile Include="Assets\Script\Properties.cs" />
+     <Compile Include="Assets\Script\RoomMouseEvent.cs" />
+     <Compile Include="Assets\Script\RoomSceneInit.cs" />
+     <Compile Include="Assets\Script\RowData.cs" />
+     <Compile Include="Assets\Script\RowProperty.cs" />
+     <Compile Include="Assets\Script\SavePrefab.cs" />
+     <Compile Include="Assets\Script\SceneSetting.cs" />
+     <Compile Include="Assets\Script\SetSpirteArg.cs" />
+     <Compile Include="Assets\Script\ShowCabinetName.cs" />
+     <Compile Include="Assets\Script\ShowDeviceInformation.cs" />
+     <Compile Include="Assets\Script\ShowRoomName.cs" />
+     <Compile Include="Assets\Script\SpriteMouseEvent.cs" />
+     <Compile Include="Assets\Script\SystemSetting.cs" />
+     <Compile Include="Assets\Script\TestScript.cs" />
+     <Compile Include="Assets\Script\UHeightStatistic.cs" />
+     <Compile Include="Assets\Script\UIEventAction.cs" />
+     <Compile Include="Assets\Script\UnloadObj.cs" />
+     <Compile Include="Assets\Script\ViewpointCtrl.cs" />
+     <Compile Include="Assets\Script\WinInit.cs" />
+     <Compile Include="Assets\Script\ZonePictureMove.cs" />
+     <Compile Include="Assets\Script\script1\AddUI.cs" />
+     <Compile Include="Assets\Script\script1\ChooseUseagePercent.cs" />
+     <Compile Include="Assets\Script\script1\CloseIcon.cs" />
+     <Compile Include="Assets\Script\script1\ControlAdd.cs" />
+     <Compile Include="Assets\Script\script1\DragBase.cs" />
+     <Compile Include="Assets\Script\script1\GetStatisticalInformation.cs" />
+     <Compile Include="Assets\Script\script1\texttest.cs" />
+     <Compile Include="Assets\Vectrosity\Material\script\Uplane.cs" />
+     <Compile Include="Assets\Vectrosity\Material\script\dataclick.cs" />
+     <None Include="Assets\Vectrosity\Documentation\Vectrosity changelog.txt" />
+     <None Include="Assets\Vectrosity\Documentation\Vectrosity Upgrade Guide.txt" />
+ <Reference Include="LitJson">
+ <HintPath>D:/U3dWorkspace/BBAVisual/Assets/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Vectrosity">
+ <HintPath>D:/U3dWorkspace/BBAVisual/Assets/Vectrosity/Vectrosity.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B4538EB8-2C0E-1B0D-CD29-ED92441C1E2B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
